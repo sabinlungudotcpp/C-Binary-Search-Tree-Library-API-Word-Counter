@@ -7,8 +7,6 @@ This is a C++ Binary Search Tree Library API along with a Word counter applicati
 
 -> Author: Sabin Constantin Lungu.
 
--> Matriculation Number: 40397517.
-
 -> Purpose of Application: The main purpose of this Binary Search Tree Library is to implement code for 11 separate given methods with the help of creating separate functions to pass 11 given tests in the test.cpp file.
 
 -> The Binary Search Tree Library API is then used to build a word counter application. The word count application is used to read in a specific text file, sort the words in alphabetical order, store them all in the Binary Search Tree and count the number of times the word occurs in the file.
