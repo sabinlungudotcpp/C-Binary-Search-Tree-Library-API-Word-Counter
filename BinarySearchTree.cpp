@@ -25,7 +25,7 @@ BinarySearchTree::BinarySearchTree() // Default constructor called
 
 BinarySearchTree::BinarySearchTree(std::string word) // A constructor to declare the tree data.
 {
-	this->root = new Node; // Allocate memory to the struct using malloc.
+	this->root = new Node; // Allocate memory on the heap using the new keyword.
 	this->root->word = word;
 	
 	this->root->left = nullptr; // Set the left branch of the tree to null.
