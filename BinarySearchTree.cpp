@@ -66,7 +66,7 @@ BinarySearchTree::BinarySearchTree(const std::vector<std::string> &words) // Cre
 	}
 }
 
-void destroyTree(Node *Node) { // A sub-routine that will destroy 
+void destroyTree(Node *Node) { // A sub-routine that will destroy the binary search tree by releasing its memory allocated.
 	if (Node != nullptr) {
 		
 		destroyTree(Node->left);
