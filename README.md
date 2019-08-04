@@ -17,7 +17,19 @@
 
 > A Sub-routine that prints the words in a Post Order fashion void wordsPostOrder() ✅ 
 
-> An operator overloading method that performs the + operation.
+> An operator overloading method that performs the + operation. ✅ 
+
+> Method to implement the assignment (=) operator. ✅ 
+
+# Word Counter Requirements
+
+> A sub-routine that implements the readFile() method to read in the appropriate file. ✅ 
+
+> Create a new Binary Search Tree instance. ✅ 
+
+> Create a vector, loop over the contents in the file and add the words to the vector. ✅ 
+
+> Delete the Binary Search Tree and set it to null pointer to release the memory allocated to it. ✅ 
 
 # C++ Binary-Search-Tree-Library-API-Word-Counter
 > This is a C++ Binary Search Tree Library API along with a Word counter application that uses the implemented library.
