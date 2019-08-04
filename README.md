@@ -1,7 +1,23 @@
-# Command Line API - Requirements
+# Command Line API - Requirements for Implementing Binary Search Tree
 > Constructor to set up the Binary Search Tree Data ✅ 
 
-> A void method that copies data from one tree to another. Implements the method void copyTwoTrees(); ✅ 
+> A sub-routine that copies data from one tree to another. Implements the method void copyTwoTrees(); ✅ 
+
+> A sub-routine that creates a Binary Search Tree from a vector of words. ✅ 
+
+> A sub-routine that destroys the Binary Search Tree by releasing its memory void destroyTree(); ✅ 
+
+> A sub-routine that inserts a word into the tree Node insertWord(). ✅ 
+
+> A sub-routine that checks if a word is in the Binary Search Tree bool checkWordInTree(). ✅ 
+
+> A sub-routine that prints the words in alphabetical order void wordsInOrder() ✅ 
+
+> A sub-routine that prints the words in a Pre Order fashion void wordsPreOrder() ✅ 
+
+> A Sub-routine that prints the words in a Post Order fashion void wordsPostOrder() ✅ 
+
+> An operator overloading method that performs the + operation.
 
 # C++ Binary-Search-Tree-Library-API-Word-Counter
 > This is a C++ Binary Search Tree Library API along with a Word counter application that uses the implemented library.
