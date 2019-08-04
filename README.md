@@ -34,3 +34,7 @@
 > After the linking process has been successfully completed, simply type in the file name: wordCounter to run the .exe file and a list of words printed out in alphabetical order should be displayed along with the number of times they occur in the test file.
 
 > After everything has been Pre-processed, linked, assembled and compiled, type in the command line "nmake clean" which is used to clean any junk files necessary, ie any junk .exe/.obj files.
+
+# Application Interface 1
+
+![Application1](https://user-images.githubusercontent.com/29733613/62426375-e35b1100-b6db-11e9-8c0d-029cef5ce66d.PNG)
