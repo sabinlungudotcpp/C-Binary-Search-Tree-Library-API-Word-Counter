@@ -38,3 +38,7 @@
 # Application Interface 1
 
 ![Application1](https://user-images.githubusercontent.com/29733613/62426375-e35b1100-b6db-11e9-8c0d-029cef5ce66d.PNG)
+
+# Word Counter
+
+![Application2](https://user-images.githubusercontent.com/29733613/62426381-04bbfd00-b6dc-11e9-8a54-42b7cb7aacaa.PNG)
