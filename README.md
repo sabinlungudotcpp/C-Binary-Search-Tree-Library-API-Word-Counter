@@ -1,3 +1,8 @@
+# Command Line API - Requirements
+> Constructor to set up the Binary Search Tree Data ✅ 
+
+> A void method that copies data from one tree to another. Implements the method void copyTwoTrees(); ✅ 
+
 # C++ Binary-Search-Tree-Library-API-Word-Counter
 > This is a C++ Binary Search Tree Library API along with a Word counter application that uses the implemented library.
 
