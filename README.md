@@ -36,17 +36,20 @@
 > After everything has been Pre-processed, linked, assembled and compiled, type in the command line "nmake clean" which is used to clean any junk files necessary, ie any junk .exe/.obj files.
 
 # Application Interface 1
-
+This is the User Interface for the Command Line Application.
 ![Application1](https://user-images.githubusercontent.com/29733613/62426375-e35b1100-b6db-11e9-8c0d-029cef5ce66d.PNG)
 
 # Word Counter 1
+> This is a portion of the words that have been counted from the file.
 
 ![Application2](https://user-images.githubusercontent.com/29733613/62426381-04bbfd00-b6dc-11e9-8a54-42b7cb7aacaa.PNG)
 
 # Word Counter 2
+> This is another portion of the words counted from the file.
 
 ![Application3](https://user-images.githubusercontent.com/29733613/62426392-20bf9e80-b6dc-11e9-8105-fdcec2e8af94.PNG)
 
 # Application Files
+> These are all the files that have been used to build the Application.
 
 ![Files](https://user-images.githubusercontent.com/29733613/62426398-38972280-b6dc-11e9-8d44-69a35d5b70b2.PNG)
