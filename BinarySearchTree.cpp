@@ -33,7 +33,7 @@ BinarySearchTree::BinarySearchTree(std::string word) // A constructor to declare
 	
 }
 
-void copyTwoTrees(Node **tree,  Node *tree2) { // A void routine that takes in two node pointers, one for the current tree and one for the new tree.
+void copyTwoTrees(Node **tree, Node *tree2) { // A void routine that takes in two node pointers, one for the current tree and one for the new tree.
 	if (tree2 == nullptr) { // If this current tree is empty then automatically set the second tree to copy to to empty.
 		*tree = nullptr;
 	}
@@ -60,8 +60,8 @@ BinarySearchTree::BinarySearchTree(const std::vector<std::string> &words) // Cre
 {
 	root = new Node;
 
-	for (int i = 0; i < words.size(); ++i) // Loop over the contents of the vector
-	{
+	for (int i = 0; i < words.size(); ++i) {
+	
 		insert(words[i]); // Calls the insert function to add the words to the vector
 	}
 }
@@ -200,7 +200,6 @@ std::string BinarySearchTree::inorderCount() const
 
 	theWords.erase(prev(theWords.end()));
 	return theWords;
-
 }
 
 void wordsPreOrder(Node *root, std::string &theWords) { // A sub-routine that will print the words in a pre order fashion.
@@ -269,7 +268,6 @@ std::string BinarySearchTree::postorder() const
 }
     
 // **Operator overloads**
-
 BinarySearchTree& BinarySearchTree::operator+(std::string word) // Default function to perform the + operator overload.
 {
 	BinarySearchTree *temp = new BinarySearchTree(*this); // Create a temporary tree and insert a word in that tree
