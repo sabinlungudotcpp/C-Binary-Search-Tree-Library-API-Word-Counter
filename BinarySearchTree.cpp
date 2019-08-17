@@ -16,7 +16,6 @@ using namespace std;
 @ Parameters Used In The Program: "std::string word -> This is used to store the word that is present in the Binary Tree" "root: The root of the tree"
 */
 
-
 // **Constructors **
 BinarySearchTree::BinarySearchTree() // Default constructor called
 {
