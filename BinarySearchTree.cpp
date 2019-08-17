@@ -35,7 +35,6 @@ void copyTwoTrees(Node **tree, Node *tree2) { // A void routine that takes in tw
 	if (tree2 == nullptr) { // If this current tree is empty then automatically set the second tree to copy to to empty.
 		*tree = nullptr;
 	}
-
 	else {
 		*tree = new Node; // Otherwise if that is not the case, create a new root pointer node instance.
 
