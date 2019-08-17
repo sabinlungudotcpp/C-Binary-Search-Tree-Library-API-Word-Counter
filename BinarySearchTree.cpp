@@ -30,7 +30,6 @@ BinarySearchTree::BinarySearchTree(std::string word) // A constructor to declare
 	
 	this->root->left = nullptr; // Set the left branch of the tree to null.
 	this->root->right = nullptr; // Set the right branch of the tree to empty (null)
-	
 }
 
 void copyTwoTrees(Node **tree, Node *tree2) { // A void routine that takes in two node pointers, one for the current tree and one for the new tree.
@@ -69,11 +68,11 @@ BinarySearchTree::BinarySearchTree(const std::vector<std::string> &words) // Cre
 void destroyTree(Node *Node) { // A sub-routine that will destroy the binary search tree by releasing its memory allocated.
 	if (Node != nullptr) {
 		
-		destroyTree(Node->left);
+		destroyTree(Node->left); // Recurse over the left side of the tree to delete the values.
 		destroyTree(Node->right);
 
 		delete Node;
-		Node = nullptr;
+		Node = nullptr; // Good practice to set the nodes to null after being deleted so they can't be reused after.
 	}
 }
 
