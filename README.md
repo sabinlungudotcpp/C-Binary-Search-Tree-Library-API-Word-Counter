@@ -46,7 +46,9 @@
 
 > The Binary Search Tree Library API is then used to build a word counter application. The word count application is used to read in a specific text file, sort the words in alphabetical order, store them all in the Binary Search Tree and count the number of times the word occurs in the file.
 
-# Toolchain Used to build Application: The software used to build this application is the Microsoft Visual Studio Developer Command Prompt Compiler 2017.
+# Toolchain Used to build Application
+
+The software used to build this application is the Microsoft Visual Studio Developer Command Prompt Compiler 2017.
 
 # How do I build this application? (Windows 10)
 
