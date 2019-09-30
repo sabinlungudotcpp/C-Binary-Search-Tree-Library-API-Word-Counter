@@ -37,7 +37,6 @@ void copyTwoTrees(Node **tree, Node *tree2) { // A void routine that takes in tw
 	}
 	else {
 		*tree = new Node; // Otherwise if that is not the case, create a new root pointer node instance.
-
 		(*tree)->word = tree2->word;// Copy the current tree's root word over to the new tree's root word
 		(*tree)->left = nullptr;
 		(*tree)->right = nullptr;
@@ -277,6 +276,5 @@ BinarySearchTree& BinarySearchTree::operator=(const BinarySearchTree &rhs) // De
 {
 	root = new Node;
 	copyTwoTrees(&this->root, rhs.root);
-
 	return *this;
 }
