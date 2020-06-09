@@ -38,11 +38,11 @@ void copyTwoTrees(Node **tree, Node *tree2) { // A void routine that takes in tw
 	else {
 		*tree = new Node; // Otherwise if that is not the case, create a new root pointer node instance.
 		(*tree)->word = tree2->word;// Copy the current tree's root word over to the new tree's root word
-		(*tree)->left = nullptr;
-		(*tree)->right = nullptr;
+		(*tree)->left = nullptr; // Set the pointer of the left branch of the tree to null
+		(*tree)->right = nullptr; // Set the pointer of the right branch of the tree to null
 
 		copyTwoTrees(&(*tree)->left, tree2->left); // Recursively call the sub-routine to copy over the words from the left branch of the tree to the new tree's left branch.
-		copyTwoTrees(&(*tree)->right, tree2->right);
+		copyTwoTrees(&(*tree)->right, tree2->right); // Recursively call the sub-routine to copy over the words from the right branch of the tree to the new tree.
 	}
 }
 
@@ -162,6 +162,7 @@ void wordsInOrder(Node *root, std::string &theWords, int count) { // A sub-routi
 		if (count == 0) {
 			theWords += root->word + " "; // COncatenate the rood word
 		}
+		
 		else {
 			theWords += root->word + " :" + to_string(root->wordCounter-1) + " \n"; // Add the roots word to the end counter and cast the words to strings using to_string
 		}
@@ -211,7 +212,7 @@ void wordsPreOrder(Node *root, std::string &theWords) { // A sub-routine that wi
 		wordsPreOrder(root->left, theWords); // Recursively call the routine to print the words in a pre order fashion on the left side of the tree.
 	}
 
-	if (root->right != nullptr) {
+	if (root->right != nullptr) { // If the right side of the tree is not empty.
 		wordsPreOrder(root->right, theWords);
 	}
 }
